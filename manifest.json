@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Query Cut",
+  "description": "Copies the current URL to clipboard without the query string",
+  "version": "1.0",
+  "background": {
+    "scripts": ["copier.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ]
+}
